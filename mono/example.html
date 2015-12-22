@@ -1,0 +1,29 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Example page</title>
+		<link rel="stylesheet" href="dist/monolog.css">
+	</head>
+	<body>
+		<script src="dist/monolog.js"></script>
+		<script>
+			var monolog = new Monolog({
+				loader  : false,
+				close: true,
+				onOpening: function() {
+					console.log('OPENING ...');
+				},
+				onOpened: function() {
+					console.log('... OPENED !');
+					this.setContent('<h1 style="text-align: center;">! Opened !</h1>');
+				},
+				onClosing: function() {
+					console.log('CLOSING ...');
+				},
+				onClosed : function () {
+					console.log('... CLOSED !');
+				}
+			});
+		</script>
+	</body>
+</html>

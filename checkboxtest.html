@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title></title>
+
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <meta name="viewport" content="width=1000, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="googlebot" content="noindex">
+    <link href="dist/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="dist/css/flat-ui.css" rel="stylesheet">
+    <link href="docs/assets/css/demo.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="mono/dist/monolog.css">
+	<script src="mono/dist/monolog.js"></script>
+</head>
+<body>
+
+
+<input type="checkbox" />
+	<div class="btn-group">
+   				  <a name="aprova" id="trocar" class="btn btn-primary" href="javascript:void();"><span class="fui-check"></span></a>
+	</div>  
+
+	<script type="text/javascript">
+
+
+
+$("#trocar").toggle(
+    function(){
+        $("input:checkbox").attr("checked",true);
+    },
+    function(){
+        $("input:checkbox").attr("checked",false);
+    })
+
+</script>
+
+
+</body>
+</html>
