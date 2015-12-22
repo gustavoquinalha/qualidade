@@ -1,0 +1,25 @@
+{
+  "name": "monolog.js",
+  "version": "1.1.2",
+  "description": "A simple, light weight, full screen and flexible modal written in full Vanilla JavaScript - no dependencies !",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soywod/monolog.js.git"
+  },
+  "keywords": [
+    "modal",
+    "dialog",
+    "monolog",
+    "flexible",
+    "simple",
+    "vanilla",
+    "javascript",
+    "js"
+  ],
+  "author": "Clément DOUIN <clementdouin21@gmail.com> (http://soywod.fr)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soywod/monolog.js/issues"
+  },
+  "homepage": "https://github.com/soywod/monolog.js#readme"
+}
