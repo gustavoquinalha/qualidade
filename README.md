@@ -1,5 +1,7 @@
 # [Flat UI Free](http://designmodo.github.io/Flat-UI/)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/gustavoquinalha/qualidade.svg)](https://greenkeeper.io/)
+
 Flat UI is a beautiful theme for [Bootstrap](http://getbootstrap.com). We have redesigned many of its components to look flat in every pixel.
 
 To get started, check out [getting started page](http://designmodo.github.io/Flat-UI/docs/getting-started.html) or follow instructions below.
